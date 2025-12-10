@@ -8,6 +8,15 @@
 // };
 
 / {
+    macros {
+        deletearow: deletearow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "DELETEAROW";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
