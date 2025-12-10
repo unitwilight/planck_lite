@@ -74,8 +74,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>,
+                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         layer_4 {
