@@ -41,10 +41,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC    &kp LC(BACKSPACE)  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &deletearow    &kp KP_NUMLOCK  &kp N7  &kp N8  &kp N9             &kp DELETE  &kp BSPC
-&lt 2 TAB  &kp HOME           &kp LEFT   &kp DOWN      &kp RIGHT  &kp END        &trans          &kp N4  &kp N5  &kp N6             &kp N0      &kp ENTER
-&kp LSHFT  &kp LC(Z)          &kp LC(X)  &kp LC(C)     &kp LC(D)  &kp LS(LG(S))  &kp LG(SEMI)    &kp N1  &kp N2  &kp N3             &kp KP_DOT  &trans
-                              &trans     &trans        &trans     &trans         &trans          &trans  &trans  &kp K_SCREENSAVER
+&kp ESC    &kp LC(BACKSPACE)  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &deletearow    &kp KP_NUMLOCK  &kp N7  &kp N8  &kp N9  &kp DELETE  &kp BSPC
+&lt 2 TAB  &kp HOME           &kp LEFT   &kp DOWN      &kp RIGHT  &kp END        &trans          &kp N4  &kp N5  &kp N6  &kp N0      &kp ENTER
+&kp LSHFT  &kp LC(Z)          &kp LC(X)  &kp LC(C)     &kp LC(D)  &kp LS(LG(S))  &kp LG(SEMI)    &kp N1  &kp N2  &kp N3  &kp KP_DOT  &trans
+                              &trans     &trans        &trans     &trans         &trans          &trans  &trans  &none
             >;
 
             sensor-bindings =
