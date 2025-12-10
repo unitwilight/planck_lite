@@ -35,8 +35,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_1 {
@@ -48,8 +48,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>,
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>,
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         layer_2 {
@@ -61,8 +61,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_NEXT C_PREVIOUS>,
-                <&inc_dec_kp C_NEXT C_PREVIOUS>;
+                <&inc_dec_kp C_PREVIOUS C_NEXT>,
+                <&inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_3 {
@@ -74,8 +74,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>,
-                <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_4 {
@@ -87,8 +87,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
+                <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
         };
     };
 };
