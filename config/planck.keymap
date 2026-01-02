@@ -55,10 +55,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans          &trans      &trans      &trans      &kp LS(N9)            &kp LS(N0)             &kp LS(MINUS)  &kp LS(EQUAL)     &kp SLASH          &kp BACKSPACE
-&trans  &trans  &trans          &trans      &trans      &trans      &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp MINUS      &kp EQUAL         &kp LS(SEMICOLON)  &kp SQT
-&trans  &trans  &trans          &trans      &trans      &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LS(COMMA)  &kp LS(PERIOD)    &trans             &kp LS(SQT)
-                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans                &trans                 &trans         &kp K_PLAY_PAUSE
+&trans  &trans  &trans          &trans      &trans      &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp PLUS          &kp TILDE     &kp BACKSPACE
+&trans  &trans  &trans          &trans      &trans      &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS       &kp EQUAL         &kp COLON     &kp SQT
+&trans  &trans  &trans          &trans      &trans      &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp DOUBLE_QUOTES
+                &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans                &trans                 &trans          &kp K_PLAY_PAUSE
             >;
 
             sensor-bindings =
